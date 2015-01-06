@@ -1,6 +1,5 @@
 <?php
-
-class IndexController extends Zend_Controller_Action
+class AbsenceController extends Zend_Controller_Action
 {
 
     public function init()
@@ -11,22 +10,20 @@ class IndexController extends Zend_Controller_Action
     public function indexAction()
     {
         // action body
+        echo 'toto';
+       // action 
     }
     
     public function listeAction()
     {
-        // action body
-        echo 'toto';
+       
         
     }
     
-    public function testAction()
+    public function absenceAction()
     {
-        // action body
-        echo 'test';
-        
+          
     }
-    
     
 
 
